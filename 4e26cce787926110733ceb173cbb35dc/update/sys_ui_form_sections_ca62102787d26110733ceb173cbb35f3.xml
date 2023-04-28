@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ca62102787d26110733ceb173cbb35f3" sys_domain="global" table="x_973726_request_0_request_record" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 06:45:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da62102787d26110733ceb173cbb35f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_973726_request_0_request_record" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">ca62102787d26110733ceb173cbb35f3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">3aa880ab87926110733ceb173cbb3527</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:45:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 06:45:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d662102787d26110733ceb173cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_973726_request_0_request_record" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">ca62102787d26110733ceb173cbb35f3</sys_ui_form>
+            <sys_ui_section caption="Select an access Request type" display_value="Select an access Request type" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">8e62102787d26110733ceb173cbb35f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:45:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 07:10:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2928d46b87d26110733ceb173cbb3558</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_973726_request_0_request_record" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">ca62102787d26110733ceb173cbb35f3</sys_ui_form>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 07:10:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_973726_request_0_request_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 06:45:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca62102787d26110733ceb173cbb35f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_973726_request_0_request_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ca62102787d26110733ceb173cbb35f3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:45:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

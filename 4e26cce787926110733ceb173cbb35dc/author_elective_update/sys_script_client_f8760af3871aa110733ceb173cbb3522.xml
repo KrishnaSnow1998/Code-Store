@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>select_order_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Details Population</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var a = g_user.userID;
+    if (select_order_type == 1) {
+        g_form.setValue('requester', a);
+        var ga = new GlideAjax('RRDetails');
+        ga.addParam('sysparm_name', 'GetDtails');
+        ga.addParam('sysparm_Req_sys_id', x);
+        ga.getXML(getcallback);
+
+
+        function getcallback(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+
+            var Req_Det = JSON.parse(answer);
+
+            g_form.setValue('requester', a);
+            g_form.setValue('manager', Req_Det.manager);
+            g_form.setValue('email', Req_Det.email);
+            g_form.setValue('location', Req_Det.location);
+            g_form.setValue('mobile_number', Req_Det.mobile_phone);
+        }
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 09:59:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8760af3871aa110733ceb173cbb3522</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Details Population</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+        <sys_update_name>sys_script_client_f8760af3871aa110733ceb173cbb3522</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 10:05:10</sys_updated_on>
+        <table>x_973726_request_0_request_record</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request Access">4e26cce787926110733ceb173cbb35dc</application>
+        <file_path/>
+        <instance_id>2d484a40db8df78052cec59705961950</instance_id>
+        <instance_name>dev82574</instance_name>
+        <name>sys_script_client_f8760af3871aa110733ceb173cbb3522</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;select_order_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Details Population&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var a = g_user.userID;
+    if (select_order_type == 1) {
+        g_form.setValue('requester', a);
+        var ga = new GlideAjax('RRDetails');
+        ga.addParam('sysparm_name', 'GetDtails');
+        ga.addParam('sysparm_Req_sys_id', x);
+        ga.getXML(getcallback);
+
+
+        function getcallback(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+
+            var Req_Det = JSON.parse(answer);
+
+            g_form.setValue('requester', a);
+            g_form.setValue('manager', Req_Det.manager);
+            g_form.setValue('email', Req_Det.email);
+            g_form.setValue('location', Req_Det.location);
+            g_form.setValue('mobile_number', Req_Det.mobile_phone);
+        }
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-26 09:59:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f8760af3871aa110733ceb173cbb3522&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Details Population&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Request Access" source="x_973726_request_0"&gt;4e26cce787926110733ceb173cbb35dc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request Access"&gt;4e26cce787926110733ceb173cbb35dc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f8760af3871aa110733ceb173cbb3522&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-26 10:05:10&lt;/sys_updated_on&gt;&lt;table&gt;x_973726_request_0_request_record&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>227512531</payload_hash>
+        <record_name>Details Population</record_name>
+        <reverted_from/>
+        <source>4226cce787926110733ceb173cbb35eb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 10:05:10</sys_created_on>
+        <sys_id>d0a90af7871aa110733ceb173cbb35af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bd062a700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 10:05:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1ca90af75f1aa110375dabbe9c65b6ae</update_guid>
+        <update_guid_history>1ca90af75f1aa110375dabbe9c65b6ae:227512531,d0498677a51aa1107fe1933832c28f78:-1209377527,c0980ab7671aa110b6cba7aafeed3876:-1363640856,bd48c2b7551aa1107965d078809c1773:-1760394631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 10:08:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>33721fbbc86247d1932aabd9eb61c4a1</sys_id>
+        <sys_metadata>f8760af3871aa110733ceb173cbb3522</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details Population</sys_name>
+        <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+        <sys_parent display_value="Request_Record">d197446b87926110733ceb173cbb357d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+        <sys_scope_delete display_value="">273824e183804fe8a72beaa0cc02ce61</sys_scope_delete>
+        <sys_update_name>sys_script_client_f8760af3871aa110733ceb173cbb3522</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f8760af3871aa110733ceb173cbb3522">d0a90af7871aa110733ceb173cbb35af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 10:08:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

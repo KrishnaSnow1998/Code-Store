@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fill the Necessary Details" section_id="dd28d46b87d26110733ceb173cbb3555" sys_domain="global" table="x_973726_request_0_request_record" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_application_group_name_specific_group_name_in_this_format_team_ra_ap</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3530</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>please_enter_the_first_last_name_of_an_existing_non_agilent_worker_new_who_alrea</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3530</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>select_either_solution_or_profile</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3eb9492b87966110733ceb173cbb3530</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>select_solution_id_based_on_organization</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>select_profile_based_on_organization</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>36b9492b87966110733ceb173cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_pc_operating_system_will_be_used_to_connect</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_type_of_pc_are_you_using</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3eb9492b87966110733ceb173cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>do_you_need_access_multiple_pcs</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_solution_profile</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>36b9492b87966110733ceb173cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_are_all_of_the_business_involved_with_this_solution_profile</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_business_justification_for_this_request</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3eb9492b87966110733ceb173cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provide_worldwide_profile_owner_name_if_know</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provide_the_local_regional_lead_name_if_know</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>36b9492b87966110733ceb173cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_application_name</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_is_the_current_owner</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3eb9492b87966110733ceb173cbb3533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_will_the_new_owner</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_are_the_users_what_is_the_access</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>36b9492b87966110733ceb173cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_justification</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_describe_your_request_in_detail</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3eb9492b87966110733ceb173cbb3534</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_email_box</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>32b9492b87966110733ceb173cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_phone_number</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>36b9492b87966110733ceb173cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_justification_to_approves</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:47:30</sys_created_on>
+            <sys_id>3ab9492b87966110733ceb173cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fill the Necessary Details" display_value="Fill the Necessary Details" name="x_973726_request_0_request_record" sys_domain="global" view="Default view">dd28d46b87d26110733ceb173cbb3555</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:47:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fill the Necessary Details</caption>
+            <header>false</header>
+            <name>x_973726_request_0_request_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 07:10:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd28d46b87d26110733ceb173cbb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_973726_request_0_request_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+            <sys_update_name>sys_ui_section_dd28d46b87d26110733ceb173cbb3555</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 07:10:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d197446b87926110733ceb173cbb357d" label="Request_Record" max_length="40" name="x_973726_request_0_request_record" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Comments/Justification to Approves" max_length="40" name="comments_justification_to_approves" type="string"/>
+        <element label="Contact Phone Number" max_length="40" name="contact_phone_number" type="string"/>
+        <element label="Description: Describe your request in Detail" max_length="10000" name="description_describe_your_request_in_detail" type="string"/>
+        <element choice="1" label="Do you Need Access Multiple Pcs" max_length="40" name="do_you_need_access_multiple_pcs" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="logistic centers Only: Would you like to reassign an existing Hard token to this" max_length="40" name="logistic_centers_only_would_you_like_to_reassign_an_existing_hard_token_to_this_" type="string"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please enter the First. Last Name of an Existing Non Agilent Worker(New) Who alr" max_length="40" name="please_enter_the_first_last_name_of_an_existing_non_agilent_worker_new_who_alrea" type="string"/>
+        <element label="Please Review Service Policy in Step-1 Select to Accept policy or Otherwise'canc" max_length="255" name="please_review_service_policy_in_step_1_select_to_accept_policy_or_otherwise_canc" type="boolean"/>
+        <element choice="1" label="Please select the following category that best describes your Request" max_length="40" name="please_select_the_following_category_that_best_describes_your_request" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="project impacts Business partners Remote Access" sequence="0" value="project impacts Business partners Remote Access"/>
+                <element inactive_on_update="false" label="Preliminary ROM for project Implementation" sequence="1" value="Preliminary ROM for project Implementation"/>
+                <element inactive_on_update="false" label="Hardware VPN changes/Moves" sequence="2" value="Hardware VPN changes/Moves"/>
+                <element inactive_on_update="false" label="Other Network Related Questions" sequence="3" value="Other Network Related Questions"/>
+            </choice>
+        </element>
+        <element choice="1" label="Please Select the Services" max_length="40" name="please_select_the_services" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="User Request" sequence="0" value="user_request"/>
+                <element inactive_on_update="false" label="Remote Access-Solution and Profile Request" sequence="1" value="remote_access_solution_and_profile_request"/>
+                <element inactive_on_update="false" label="Remote Access-Network Consulting" sequence="2" value="remote_access_network_consulting"/>
+            </choice>
+        </element>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-Critical" sequence="0" value="1-Critical"/>
+                <element inactive_on_update="false" label="2-High" sequence="1" value="2-High"/>
+                <element inactive_on_update="false" label="3-Medium" sequence="2" value="3-Medium"/>
+                <element inactive_on_update="false" label="4-Low" sequence="3" value="4-Low"/>
+            </choice>
+        </element>
+        <element label="Provide the Local Regional Lead Name if Know" max_length="40" name="provide_the_local_regional_lead_name_if_know" type="string"/>
+        <element label="Provide Worldwide Profile Owner Name if Know" max_length="40" name="provide_worldwide_profile_owner_name_if_know" type="string"/>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element choice="1" label="select either solution or profile" max_length="40" name="select_either_solution_or_profile" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Request Access Solution" sequence="0" value="Request Access Solution"/>
+                <element inactive_on_update="false" label="Request Access Profile" sequence="1" value="Request Access Profile"/>
+            </choice>
+        </element>
+        <element choice="1" label="Select Option For Remote Access Solution" max_length="40" name="select_option_for_remote_access_solution" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Modify an existing Solution/Profile" sequence="0" value="Modify an existing Solution/Profile"/>
+                <element inactive_on_update="false" label="Terminate Solution/Profile" sequence="1" value="Terminate Solution/Profile"/>
+                <element inactive_on_update="false" label="Discovery Request" sequence="2" value="Discovery Request"/>
+                <element inactive_on_update="false" label="Change of ownership of a Solutions/Profile" sequence="3" value="Change of ownership of a Solutions/Profile"/>
+            </choice>
+        </element>
+        <element choice="1" label="Select Option for User Token" max_length="40" name="select_option_for_user_token" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Create a New Solution/Profile" sequence="0" value="create_a_new_solution_profile"/>
+                <element inactive_on_update="false" label="Add User TO Existing Solution/Profile" sequence="1" value="add_user_to_existing_solution_profile"/>
+                <element inactive_on_update="false" label="Move an Existing User to a Different Acc..." sequence="2" value="move_an_existing_user_to_a_different_acc"/>
+            </choice>
+        </element>
+        <element choice="3" default="self" label="Select Order Type" max_length="40" name="select_order_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Self" sequence="0" value="self"/>
+                <element inactive_on_update="false" label="Someone" sequence="1" value="someone"/>
+            </choice>
+        </element>
+        <element label="Select Profile Based on Organization" max_length="32" name="select_profile_based_on_organization" reference="x_973726_request_0_solution_profile_meta" type="reference"/>
+        <element label="Select Solution ID Based on Organization" max_length="32" name="select_solution_id_based_on_organization" reference="x_973726_request_0_solution_profile_meta" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="user Email Box" max_length="40" name="user_email_box" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the application Group Name?(Specific Group Name in this format Team -RA-" max_length="40" name="what_is_the_application_group_name_specific_group_name_in_this_format_team_ra_ap" type="string"/>
+        <element label="What is the Application Name " max_length="40" name="what_is_the_application_name" type="string"/>
+        <element label="what is the Business justification for this request" max_length="40" name="what_is_the_business_justification_for_this_request" type="string"/>
+        <element label="What is the Justification" max_length="40" name="what_is_the_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="What is the required implementation date for this access (the target delivery ti" max_length="40" name="what_is_the_required_implementation_date_for_this_access_the_target_delivery_tim" type="string"/>
+        <element label="what is the Solution/Profile" max_length="32" name="what_is_the_solution_profile" reference="sys_user" type="reference"/>
+        <element choice="1" label="What PC Operating system will be used to connect" max_length="40" name="what_pc_operating_system_will_be_used_to_connect" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Window" sequence="0" value="Window"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="Other"/>
+            </choice>
+        </element>
+        <element choice="1" label="What type of Pc are you Using" max_length="40" name="what_type_of_pc_are_you_using" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Shared Pc" sequence="0" value="Shared Pc"/>
+                <element inactive_on_update="false" label="Organization Provided Pc" sequence="1" value="Organization Provided Pc"/>
+            </choice>
+        </element>
+        <element label="Who are all of the Business Involved with this solution/Profile" max_length="40" name="who_are_all_of_the_business_involved_with_this_solution_profile" type="string"/>
+        <element label="Who are the users? What is the access" max_length="40" name="who_are_the_users_what_is_the_access" type="string"/>
+        <element label="Who is the current owner" max_length="40" name="who_is_the_current_owner" type="string"/>
+        <element label="Who will the New Owner " max_length="40" name="who_will_the_new_owner" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
+        </index>
+        <index name="index4">
+            <element name="manager"/>
+        </index>
+        <index name="index5">
+            <element name="requester"/>
+        </index>
+        <index name="index6">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index7">
+            <element name="what_is_the_solution_profile"/>
+        </index>
+    </element>
+</database>

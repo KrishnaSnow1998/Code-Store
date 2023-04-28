@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_973726_request_0.RRDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RRDetails</name>
+        <script><![CDATA[var RRDetails = Class.create();
+RRDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    GetDtails: function() {
+        var Req_sys_id = this.getParameter('sysparm_Req_sys_id');
+        var answer = {};
+        var Req_Det = new GlideRecord('sys_user');
+        Req_Det.addQuery('sys_id', Req_sys_id);
+        Req_Det.query();
+        if (Req_Det.next()) {
+
+            answer.manager = Req_Det.getValue('manager');
+            answer.email = Req_Det.getValue('email');
+            answer.location = Req_Det.getValue('location');
+            answer.mobile_phone = Req_Det.getValue('mobile_phone');
+        }
+        return JSON.stringify(answer);
+    },
+    type: 'RRDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 09:55:50</sys_created_on>
+        <sys_id>38070e37871aa110733ceb173cbb35dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>RRDetails</sys_name>
+        <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+        <sys_update_name>sys_script_include_38070e37871aa110733ceb173cbb35dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 10:30:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

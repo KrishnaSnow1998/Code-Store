@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="what_is_the_business_justification_for_this_request" label="what is the Business justification for this request" language="en" table="x_973726_request_0_request_record">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>what_is_the_business_justification_for_this_request</element>
+            <help/>
+            <hint/>
+            <label>what is the Business justification for this request</label>
+            <language>en</language>
+            <name>x_973726_request_0_request_record</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 10:05:54</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>what is the Business justification for this request</sys_name>
+            <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+            <sys_update_name>sys_documentation_x_973726_request_0_request_record_what_is_the_business_justification_for_this_request_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:05:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

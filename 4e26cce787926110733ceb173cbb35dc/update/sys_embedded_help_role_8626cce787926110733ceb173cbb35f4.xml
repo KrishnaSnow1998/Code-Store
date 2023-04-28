@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_973726_request_0.admin" name="x_973726_request_0.admin">8626cce787926110733ceb173cbb35f3</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 05:52:17</sys_created_on>
+        <sys_id>8626cce787926110733ceb173cbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8626cce787926110733ceb173cbb35f3</sys_name>
+        <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8626cce787926110733ceb173cbb35f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-25 05:52:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

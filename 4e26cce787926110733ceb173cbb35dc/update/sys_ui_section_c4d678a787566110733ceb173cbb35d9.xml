@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="x_973726_request_0_request_record" section_id="c4d678a787566110733ceb173cbb35d9" sys_domain="global" table="x_973726_request_0_request_record" version="3" view="Form_View">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>x_973726_request_0_request_record</caption>
+            <header>false</header>
+            <name>x_973726_request_0_request_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 09:24:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4d678a787566110733ceb173cbb35d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_973726_request_0_request_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+            <sys_update_name>sys_ui_section_c4d678a787566110733ceb173cbb35d9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 09:24:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Form View" name="Form_View">04d678a787566110733ceb173cbb35d5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

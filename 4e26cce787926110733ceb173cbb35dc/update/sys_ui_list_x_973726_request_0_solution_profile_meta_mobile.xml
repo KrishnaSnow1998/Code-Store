@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_973726_request_0_solution_profile_meta" version="2" view="Mobile">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_973726_request_0_solution_profile_meta" element="NULL" name="x_973726_request_0_solution_profile_meta" parent="NULL" relationship="NULL" sys_domain="global" view="44e8c043243021108c8bc6863d3fad9a">ebf4075c872a2510733ceb173cbb35f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_id>63f4075c872a2510733ceb173cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_973726_request_0_solution_profile_meta" element="NULL" name="x_973726_request_0_solution_profile_meta" parent="NULL" relationship="NULL" sys_domain="global" view="44e8c043243021108c8bc6863d3fad9a">ebf4075c872a2510733ceb173cbb35f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_id>6bf4075c872a2510733ceb173cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>profile_name</element>
+            <list_id display_value="x_973726_request_0_solution_profile_meta" element="NULL" name="x_973726_request_0_solution_profile_meta" parent="NULL" relationship="NULL" sys_domain="global" view="44e8c043243021108c8bc6863d3fad9a">ebf4075c872a2510733ceb173cbb35f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_id>6ff4075c872a2510733ceb173cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>select_type_of_access</element>
+            <list_id display_value="x_973726_request_0_solution_profile_meta" element="NULL" name="x_973726_request_0_solution_profile_meta" parent="NULL" relationship="NULL" sys_domain="global" view="44e8c043243021108c8bc6863d3fad9a">ebf4075c872a2510733ceb173cbb35f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_id>63f4075c872a2510733ceb173cbb35f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>solution_name</element>
+            <list_id display_value="x_973726_request_0_solution_profile_meta" element="NULL" name="x_973726_request_0_solution_profile_meta" parent="NULL" relationship="NULL" sys_domain="global" view="44e8c043243021108c8bc6863d3fad9a">ebf4075c872a2510733ceb173cbb35f5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_id>67f4075c872a2510733ceb173cbb35f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_973726_request_0_solution_profile_meta</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-28 03:41:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebf4075c872a2510733ceb173cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_973726_request_0_solution_profile_meta</sys_name>
+            <sys_package display_value="Request Access" source="x_973726_request_0">4e26cce787926110733ceb173cbb35dc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Request Access">4e26cce787926110733ceb173cbb35dc</sys_scope>
+            <sys_update_name>sys_ui_list_x_973726_request_0_solution_profile_meta_Mobile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-28 03:41:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">44e8c043243021108c8bc6863d3fad9a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

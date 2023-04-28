@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="10e1ce4487a6e110733ceb173cbb35ec" label="SOLUTION/PROFILE Meta" max_length="40" name="x_973726_request_0_solution_profile_meta" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Profile Name " max_length="40" name="profile_name" type="string"/>
+        <element choice="1" label="Select type of Access" max_length="40" name="select_type_of_access" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Solution" sequence="0" value="Solution"/>
+                <element inactive_on_update="false" label="Profile" sequence="1" value="Profile"/>
+            </choice>
+        </element>
+        <element label="Solution Name" max_length="40" name="solution_name" type="string"/>
+    </element>
+</database>
